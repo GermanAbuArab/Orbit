@@ -894,7 +894,7 @@ textarea {
 }
 .menu>.content {
 	padding: 30px;
-	background: rgba(17,21,31,.9);
+	background: rgba(17,21,31,.7);
 	min-height: 100%;
 }
 .menu-header {
