@@ -40,7 +40,7 @@ body {
 	line-height: 24px;
 	color: #5c5c5c;
 	letter-spacing: 1.4px;
-	background-color: #11151f;
+	background-color: #f7f7f7;
 }
 a {
 	color: #0199ed;
@@ -288,7 +288,7 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]):not([type=radio])
 	border: none;
 	border-bottom: 1px solid #d4d5da;
 	line-height: 72px;
-	height: 72px;
+	height: 50px;
 	font-size: 14px;
 	letter-spacing: .56px;
 	color: #5c5c5c;
