@@ -1847,8 +1847,8 @@ textarea {
 	float: left;
 	position: relative;
 	display: block;
-	padding: 15px;
 	display: none;
+	padding-bottom: 15px;
 }
 .blog .item img {
 	width: 100%;
@@ -1893,11 +1893,16 @@ textarea {
 .blog .item .overlay p {
 	margin-bottom: 12px;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #5c5c5c;
+  }
 .blog .item .overlay .read-more {
-	text-align: right;
+	text-align: center;
 	margin-bottom: 40px;
 	margin-top: 24px;
 	font-weight: 400;
+	padding-top: 265px;
 }
 .blog-share {
 	font-size: 14px;

@@ -167,71 +167,30 @@
                     <div id="blog" class="blog">
                         <div class="blog-sizer"></div>
 
-                        <div class="item" style="padding-top: 70px; background-color: #2f3c4e;">
+                        <div class="item" style="padding-top: 50px; background-color: #f7f7f7;">
                             <div class="search-zone">
                                 <div class="from-to">
                                     <div>
-                                        <tripplan-location model="ctrl.from" placeholder="trip_plan_source_hint"
-                                            delay="500" label="position_start"
-                                            on-search="ctrl.searchForSuggestedLocations(ctrl.FromTo.From, args)"
-                                            on-clear="ctrl.locationClear(ctrl.FromTo.From, location)"
-                                            on-focused="ctrl.locationFocused(ctrl.FromTo.From)"
-                                            on-blur="ctrl.locationBlur(ctrl.FromTo.From)"
-                                            auto-focus="!ctrl.appProfileService.isMobile &amp;&amp; !ctrl.appProfileService.isInIframe">
+                                        <tripplan-location model="ctrl.from" placeholder="trip_plan_source_hint">
                                             <div class="container">
                                                 <input type="text" ng-disabled="ctrl.disabled"
-                                                    ng-model="ctrl.model[ctrl.searchField]"
-                                                    ng-change="ctrl.search(ctrl.model[ctrl.searchField])"
-                                                    ng-focus="ctrl.internalOnFocused()" ng-blur="ctrl.internalOnBlur()"
-                                                    placeholder="¿En dónde te recogemos?"
-                                                    ng-attr-autofocus="{{ctrl.autoFocus ? true : undefined}}"
-                                                    class="ng-pristine ng-valid ng-empty ng-touched" autofocus="true"
-                                                    aria-invalid="false" style="">
-
-                                                <!---->
+                                                    placeholder="¿En dónde te recogemos?">
                                             </div>
                                         </tripplan-location>
-
-                                        <tripplan-location model="ctrl.to" placeholder="trip_plan_destination_hint"
-                                            delay="500" label="position_end"
-                                            on-search="ctrl.searchForSuggestedLocations(ctrl.FromTo.To, args)"
-                                            on-clear="ctrl.locationClear(ctrl.FromTo.To, location)"
-                                            on-focused="ctrl.locationFocused(ctrl.FromTo.To)"
-                                            on-blur="ctrl.locationBlur(ctrl.FromTo.To)" auto-focus="false">
-                                            <div class="container"
-                                                ng-class="{'filled': ctrl.model[ctrl.searchField].length > 0}">
-                                                <input type="text" ng-disabled="ctrl.disabled"
-                                                    ng-model="ctrl.model[ctrl.searchField]"
-                                                    ng-change="ctrl.search(ctrl.model[ctrl.searchField])"
-                                                    ng-focus="ctrl.internalOnFocused()" ng-blur="ctrl.internalOnBlur()"
-                                                    placeholder="¿Hacia dónde quieres ir?"
-                                                    ng-attr-autofocus="{{ctrl.autoFocus ? true : undefined}}"
-                                                    class="ng-pristine ng-untouched ng-valid ng-empty"
-                                                    aria-invalid="false">
-
-                                                <!---->
-                                            </div>
-                                        </tripplan-location>
+                                        <tripplan-location model="ctrl.from" placeholder="trip_plan_source_hint">
+                                                <div class="container">
+                                                    <input type="text" ng-disabled="ctrl.disabled"
+                                                        placeholder="¿A dónde te llevamos?">
+                                                </div>
+                                            </tripplan-location>
                                     </div>
-                                    <div class="item">
+                                    <div class="item" style="background-image: url(./images/genericmap.jpeg); height: 1000px;">
                                         <div class="overlay">
-                                            <div class="blog-scroll">
-                                                <img src="./images/genericmap.jpeg">
-                                                <a href="#blog-post01" class="blog-post-title">
-                                                    <h5>Donec placerat mollis tellus, non aliquam maximus ac. Cras
-                                                        pellentesque nisi eget cursus dapibus.</h5>
-                                                </a>
-                                                <p>Sed et lectus nunc. Integer bibendum viverra felis sit amet
-                                                    sollicitudin. Sed eu pretium elit,</p>
-                                                <p>ac lacinia nisl. Donec molestie, leo nec convallis laoreet, lacus
-                                                    orci facilisis velit.</p>
+                                            <div class="blog-scroll" style="">
                                                 <div class="read-more">
-                                                    <a href="#blog-post01" class="button">Read More</a>
+                                                    <a href="#blog-post01" class="button">Pedir</a>
                                                 </div> <!-- end .read-more -->
-                                                <div class="blog-share">Share: <a href=""><i
-                                                            class="pe-so-facebook"></i></a><a href=""><i
-                                                            class="pe-so-twitter"></i></a><a href=""><i
-                                                            class="pe-so-google-plus"></i></a></div>
+
                                             </div> <!-- end .blog-scroll -->
                                         </div> <!-- end .overlay -->
                                     </div> <!-- end .item -->
