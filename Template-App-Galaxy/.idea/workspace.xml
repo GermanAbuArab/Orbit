@@ -56,8 +56,16 @@
       <option name="presentableId" value="Default" />
       <updated>1570212146170</updated>
       <workItem from="1570212147442" duration="12293000" />
-      <workItem from="1570250479144" duration="3348000" />
+      <workItem from="1570250479144" duration="3614000" />
     </task>
+    <task id="LOCAL-00001" summary="cambio menu en comienzo">
+      <created>1570254053158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570254053158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cambio menu en comienzo" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio menu en comienzo" />
   </component>
 </project>
